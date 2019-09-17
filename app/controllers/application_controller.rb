@@ -40,5 +40,9 @@ class ApplicationController < Sinatra::Base
     
   end
   
+  delete '/articles/:id' do 
+    
+  end
+  
   
 end
