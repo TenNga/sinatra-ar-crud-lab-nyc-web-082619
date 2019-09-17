@@ -18,7 +18,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/articles/:id' do 
-    
+    @
   end
   
   get '/show' do
