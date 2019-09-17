@@ -11,6 +11,10 @@ class ApplicationController < Sinatra::Base
   get '/' do
   end
   
+  get '/show' do
+    erb :show 
+  end
+  
   get '/articles' do
     redirect to '/show'
   end
